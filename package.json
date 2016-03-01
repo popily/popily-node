@@ -1,0 +1,10 @@
+{
+  "name": "popily-node",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Popily client API",
+  "repository": "",
+  "license": "",
+  "dependencies": {
+  }
+}
