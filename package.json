@@ -10,5 +10,13 @@
   "main": "lib/popily.js",
   "license": "",
   "dependencies": {
+    "request": "~2.69.0"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~2.4.5"
+  },
+  "scripts": {
+    "test": "mocha test"
   }
 }
