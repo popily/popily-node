@@ -1,11 +1,13 @@
 'use strict';
 
+var utils = require('./utils');
+var expect  = require("chai").expect;
+
 require('./test-source');
 
-var expect  = require("chai").expect;
 var popily = require("../lib/popily")(
-  '60827788782637ff62abb202db211788047abc43', 
-  'https://staging.popily.com'
+  utils.getToken(), 
+  utils.getServer()
 );
 
 describe("Insight API", function() {

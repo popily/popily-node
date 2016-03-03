@@ -1,16 +1,18 @@
 'use strict';
 
+var utils = require('./utils');
 var expect  = require("chai").expect;
+
 var popily = require("../lib/popily")(
-  '60827788782637ff62abb202db211788047abc43', 
-  'https://staging.popily.com'
+  utils.getToken(), 
+  utils.getServer()
 );
 
 describe("Source API", function() {
 
   var testSourceTitle =  'test ' + (new Date().toISOString());
   var testSource = null;
-  var addOption = null; // = 'external'; // = 'upload';
+  var addOption = utils.getAddOption(); // = 'external'; // = 'upload';
   
   if(addOption == 'external') {
     testSourceTitle =  'GoT test ' + (new Date().toISOString());
