@@ -1,11 +1,18 @@
 {
-  "name": "popily-node",
+  "name": "popily",
   "private": false,
   "version": "0.0.1",
   "description": "Popily client API",
+  "keywords": [
+    "popily",
+    "data processing",
+    "api"
+  ],
+  "homepage": "https://development.popily.com",
+  "author": "Popily <awsome@popily.com> (https://popily.com/)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stripe/stripe-node.git"
+    "url": "git://github.com/popily/popily-node.git"
   },
   "main": "lib/popily.js",
   "license": "",
