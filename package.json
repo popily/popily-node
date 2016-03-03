@@ -9,7 +9,7 @@
     "api"
   ],
   "homepage": "https://development.popily.com",
-  "author": "Popily <awsome@popily.com> (https://popily.com/)",
+  "author": "Popily <awesome@popily.com> (https://popily.com/)",
   "repository": {
     "type": "git",
     "url": "git://github.com/popily/popily-node.git"
